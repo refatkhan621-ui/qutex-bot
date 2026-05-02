@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 bot = telebot.TeleBot(API_TOKEN, parse_mode="Markdown")
 
 ASSETS = ["EUR/USD-OTC","GBP/USD-OTC","USD/JPY-OTC",
-          "AUD/USD-OTC","USD/BDT-OTC","BTC/USD-OTC"]
+          "AUD/USD-OTC","USD/BDT-OTC"]
 SIGNALS = [("UP","✅ CALL (BUY)"),("DOWN","🔴 PUT (SELL)")]
 ACCURACY = ["78%","82%","75%","80%","85%"]
 signal_count = 0
