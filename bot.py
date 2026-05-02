@@ -43,7 +43,7 @@ def generate_signal():
         f"🔢 Signal # : `{signal_count}`\n"
         f"━━━━━━━━━━━━━━━━━━━━━━━\n"
         f"_Analysis: Trader Rifat_\n"
-        f"⚠️ _Demo only_"
+        f""
     )
 
 def send_signal_to_all():
