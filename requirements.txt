@@ -1,2 +1,5 @@
 pyTelegramBotAPI
+yfinance
+pandas
+numpy
 schedule
